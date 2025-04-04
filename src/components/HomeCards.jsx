@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "./Card";
+import { Link } from "react-router-dom"
 
 const HomeCards = () => {
     return <section className="py-4">
@@ -10,12 +11,12 @@ const HomeCards = () => {
           <p className="mt-2 mb-4">
             Browse our React jobs and start your career today
           </p>
-          <a
-            href="/jobs.html"
+          <Link
+            to="/jobs"
             className="inline-block bg-black text-white rounded-lg px-4 py-2 hover:bg-gray-700"
           >
             Browse Jobs
-          </a>
+          </Link>
         </Card>
 
 
