@@ -7,7 +7,8 @@ const HomePage = () => {
   return (
     <>
       <Hero />
-      
+      <HomeCards />
+    
     </>
 
   )
