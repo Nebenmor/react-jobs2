@@ -1,10 +1,11 @@
 import React from 'react'
 
+import { FaExclamationTriangle } from "react-icons/fa"
 
 const NotFound = () => {
   return (
     <section className="text-center flex flex-col justify-center items-center h-96">
-
+      <FaExclamationTriangle className="text-yellow-400 mb-4 text-6xl" />
       <h1 className="text-6xl font-bold mb-4">404 Not Found</h1>
       <p className="text-xl mb-5">This page does not exist</p>
       <Link
