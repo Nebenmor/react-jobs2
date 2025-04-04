@@ -25,12 +25,12 @@ const Navbar = () => {
               <Link
                 href="/"
                 className="text-white bg-black hover:bg-gray-900 hover:text-white rounded-md px-3 py-2"
-                >Home</a
+                >Home</Link
               >
               <Link
                 to="/jobs"
                 className="text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2"
-                >Jobs</a
+                >Jobs</Link
               >
               <a
                 href="/add-job"
