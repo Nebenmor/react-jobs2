@@ -8,7 +8,8 @@ const HomePage = () => {
     <>
       <Hero />
       <HomeCards />
-    
+      <JobListings />
+      
     </>
 
   )
